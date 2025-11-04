@@ -12,20 +12,36 @@
 
 ### 👨‍💻 About Me
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Raunak Jaiswal"
-        self.role = "Full Stack Developer"
-        self.languages = ["Python", "JavaScript", "TypeScript", "C"]
-        self.interests = ["Web Development", "AI/ML", "Open Source", "System Design"]
-    
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together.")
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-me = Developer()
-me.say_hi()
+🚀 Passionate **Full Stack Developer** who loves turning ideas into reality through code
+
+💡 Currently diving deep into **AI/ML** and building intelligent applications
+
+🌱 Always exploring new technologies and best practices in **System Design**
+
+🤝 Open to collaborating on **Open Source** projects and innovative solutions
+
+📚 Constantly learning and evolving in the ever-changing tech landscape
+
+💻 Enjoy solving complex problems and writing clean, efficient code
+
+```javascript
+const raunak = {
+    location: "India 🇮🇳",
+    code: ["Python", "JavaScript", "TypeScript", "C"],
+    technologies: {
+        frontEnd: ["React", "Next.js", "Tailwind CSS"],
+        backEnd: ["Node.js", "Django", "Flask", "Express"],
+        databases: ["MongoDB", "PostgreSQL"],
+        tools: ["Git", "Docker", "GitHub Actions"]
+    },
+    currentlyLearning: "AI/ML & System Architecture",
+    funFact: "I debug with console.log() and I'm not ashamed! 😄"
+};
 ```
+
+<br clear="right"/>
 
 ---
 
