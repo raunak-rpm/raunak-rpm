@@ -18,7 +18,7 @@ class Developer:
         self.name = "Raunak Jaiswal"
         self.role = "Full Stack Developer"
         self.languages = ["Python", "JavaScript", "TypeScript", "C"]
-        self.interests = ["Web Development", "Open Source", "System Design"]
+        self.interests = ["Web Development", "AI/ML", "Open Source", "System Design"]
     
     def say_hi(self):
         print("Thanks for dropping by! Let's build something amazing together.")
