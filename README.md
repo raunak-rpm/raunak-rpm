@@ -32,28 +32,23 @@ class Developer:
         self.name = "Raunak Jaiswal"
         self.location = "India 🇮🇳"
         self.role = "Full Stack Developer"
-        self.languages = ["Python", "JavaScript", "TypeScript", "C"]
-        
-    def get_tech_stack(self):
-        return {
-            "frontend": ["React", "Next.js", "Tailwind CSS"],
-            "backend": ["Node.js", "Django", "Flask", "Express"],
-            "databases": ["MongoDB", "PostgreSQL", "MySQL"],
-            "tools": ["Git", "Docker", "GitHub Actions", "Linux"]
-        }
+        self.code = ["Python", "JavaScript", "TypeScript", "C"]
     
     def current_focus(self):
         return [
-            "Building AI-powered applications",
-            "Mastering system architecture",
-            "Contributing to open source",
-            "Learning every single day"
+            "🤖 Building AI-powered applications",
+            "🏗️ Mastering system architecture",
+            "🌐 Creating scalable web solutions",
+            "🔐 Implementing security best practices"
         ]
+    
+    def interests(self):
+        return ["Web Development", "AI/ML", "Open Source", "System Design"]
     
     def life_motto(self):
         return "Clean code. Clear mind. Constant growth. 🚀"
 
-# Initialize developer
+# Initialize
 me = Developer()
 print(f"Hi, I'm {me.name}! Let's build something amazing together! ✨")
 ```
