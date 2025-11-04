@@ -26,19 +26,55 @@
 
 💻 Enjoy solving complex problems and writing clean, efficient code
 
-```javascript
-const raunak = {
-    location: "India 🇮🇳",
-    code: ["Python", "JavaScript", "TypeScript", "C"],
-    technologies: {
-        frontEnd: ["React", "Next.js", "Tailwind CSS"],
-        backEnd: ["Node.js", "Django", "Flask", "Express"],
-        databases: ["MongoDB", "PostgreSQL"],
-        tools: ["Git", "Docker", "GitHub Actions"]
-    },
-    currentlyLearning: "AI/ML & System Architecture",
-    funFact: "I debug with console.log() and I'm not ashamed! 😄"
+```typescript
+interface Developer {
+  name: string;
+  location: string;
+  role: string;
+  languages: string[];
+  technologies: {
+    frontEnd: string[];
+    backEnd: string[];
+    databases: string[];
+    devOps: string[];
+  };
+  currentFocus: string[];
+  lifePhilosophy: string;
+  workStyle: string[];
+}
+
+const raunak: Developer = {
+  name: "Raunak Jaiswal",
+  location: "India 🇮🇳",
+  role: "Full Stack Developer",
+  languages: ["Python", "JavaScript", "TypeScript", "C"],
+  
+  technologies: {
+    frontEnd: ["React", "Next.js", "Tailwind CSS", "HTML5/CSS3"],
+    backEnd: ["Node.js", "Django", "Flask", "Express.js"],
+    databases: ["MongoDB", "PostgreSQL", "MySQL"],
+    devOps: ["Git", "Docker", "GitHub Actions", "Linux"]
+  },
+  
+  currentFocus: [
+    "🤖 Artificial Intelligence & Machine Learning",
+    "🏗️ System Design & Architecture",
+    "🌐 Building Scalable Web Applications",
+    "🔐 Security Best Practices"
+  ],
+  
+  lifePhilosophy: "Code is poetry written in logic ✨",
+  
+  workStyle: [
+    "☕ Coffee-driven development",
+    "🌙 Peak productivity at night",
+    "🎯 Clean code enthusiast",
+    "🚀 Ship fast, iterate faster"
+  ]
 };
+
+// Let's build something amazing together! 🎉
+console.log(raunak);
 ```
 
 <br clear="right"/>
