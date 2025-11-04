@@ -26,55 +26,36 @@
 
 💻 Enjoy solving complex problems and writing clean, efficient code
 
-```typescript
-interface Developer {
-  name: string;
-  location: string;
-  role: string;
-  languages: string[];
-  technologies: {
-    frontEnd: string[];
-    backEnd: string[];
-    databases: string[];
-    devOps: string[];
-  };
-  currentFocus: string[];
-  lifePhilosophy: string;
-  workStyle: string[];
-}
+```python
+class Developer:
+    def __init__(self):
+        self.name = "Raunak Jaiswal"
+        self.location = "India 🇮🇳"
+        self.role = "Full Stack Developer"
+        self.languages = ["Python", "JavaScript", "TypeScript", "C"]
+        
+    def get_tech_stack(self):
+        return {
+            "frontend": ["React", "Next.js", "Tailwind CSS"],
+            "backend": ["Node.js", "Django", "Flask", "Express"],
+            "databases": ["MongoDB", "PostgreSQL", "MySQL"],
+            "tools": ["Git", "Docker", "GitHub Actions", "Linux"]
+        }
+    
+    def current_focus(self):
+        return [
+            "Building AI-powered applications",
+            "Mastering system architecture",
+            "Contributing to open source",
+            "Learning every single day"
+        ]
+    
+    def life_motto(self):
+        return "Clean code. Clear mind. Constant growth. 🚀"
 
-const raunak: Developer = {
-  name: "Raunak Jaiswal",
-  location: "India 🇮🇳",
-  role: "Full Stack Developer",
-  languages: ["Python", "JavaScript", "TypeScript", "C"],
-  
-  technologies: {
-    frontEnd: ["React", "Next.js", "Tailwind CSS", "HTML5/CSS3"],
-    backEnd: ["Node.js", "Django", "Flask", "Express.js"],
-    databases: ["MongoDB", "PostgreSQL", "MySQL"],
-    devOps: ["Git", "Docker", "GitHub Actions", "Linux"]
-  },
-  
-  currentFocus: [
-    "🤖 Artificial Intelligence & Machine Learning",
-    "🏗️ System Design & Architecture",
-    "🌐 Building Scalable Web Applications",
-    "🔐 Security Best Practices"
-  ],
-  
-  lifePhilosophy: "Code is poetry written in logic ✨",
-  
-  workStyle: [
-    "☕ Coffee-driven development",
-    "🌙 Peak productivity at night",
-    "🎯 Clean code enthusiast",
-    "🚀 Ship fast, iterate faster"
-  ]
-};
-
-// Let's build something amazing together! 🎉
-console.log(raunak);
+# Initialize developer
+me = Developer()
+print(f"Hi, I'm {me.name}! Let's build something amazing together! ✨")
 ```
 
 <br clear="right"/>
