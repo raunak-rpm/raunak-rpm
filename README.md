@@ -72,7 +72,7 @@ me.say_hi()
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Auankj&theme=react&hide_border=true&background=1F222E&ring=E94560&fire=E94560&currStreakLabel=F8F8F2"/>
+  <img src="https://streak-stats.demolab.com/?user=Auankj&theme=dark&hide_border=true&background=1F222E&ring=E94560&fire=E94560&currStreakLabel=F8F8F2&sideLabels=F8F8F2&dates=C9D1D9"/>
 </div>
 
 ---
