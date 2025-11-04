@@ -21,13 +21,14 @@ I'm **Raunak Jaiswal**, a Full Stack Developer based in India 🇮🇳
 
 ---
 
-### 📈 GitHub Stats
+### 📈 GitHub Metrics
 
-![Auankj's GitHub stats](https://github-readme-stats.vercel.app/api?username=Auankj&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9)
+<div align="center">
+  <img src="https://github.com/Auankj/Auankj/blob/main/metrics1.svg" width="48%" alt="Metrics 1" />
+  <img src="https://github.com/Auankj/Auankj/blob/main/metrics2.svg" width="48%" alt="Metrics 2" />
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Auankj&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=Auankj&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e)
+<sub>📊 Auto-updated every 3 hours using GitHub Actions</sub>
 
 ---
 
