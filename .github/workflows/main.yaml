@@ -39,6 +39,7 @@ jobs:
           plugin_languages_threshold: 2%
 
           plugin_lines: yes
+          plugin_lines_sections: base
 
           plugin_notable: yes
           plugin_notable_filter: stars:>50
