@@ -20,7 +20,7 @@ jobs:
 
           # Options
           filename: metrics1.svg
-          user: Auankj
+          user: raunak-rpm
           base: header, activity, repositories, metadata
           config_timezone: Asia/Kolkata
           config_twemoji: yes
@@ -54,7 +54,7 @@ jobs:
 
           # Options
           filename: metrics2.svg
-          user: Auankj
+          user: raunak-rpm
           base: ""
           config_timezone: Asia/Kolkata
           config_twemoji: yes  
